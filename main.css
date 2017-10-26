@@ -3,6 +3,10 @@ body{
     height: 100%;
     width: 100%;
 }
+button{
+    width: 50px;
+    height: 50px;
+}
 header{
     display: flex;
     flex-direction: row;
@@ -25,10 +29,23 @@ header{
   
 }
 .board .row{
-    
+    flex-grow: 1;
     width: 100%;
-    background-color: rgb(143, 141, 141);
     min-height: 50px;
+    display: flex;
+    
+
+
+
+}
+.board .row .square{
+    background-color: pink;
+    min-width: 50px;
+    min-height: 50px;
+    flex-grow: 1;
+    
+
+
 
 }
 
