@@ -1,0 +1,37 @@
+body{
+    background-color: royalblue;
+    height: 100%;
+    width: 100%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em 0em;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.board{
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column ;
+  
+}
+.board .row{
+    
+    width: 100%;
+    background-color: rgb(143, 141, 141);
+    min-height: 50px;
+
+}
+
+
+
+
