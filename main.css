@@ -39,7 +39,7 @@ header{
 
 }
 .board .row .square{
-    background-color: pink;
+    
     min-width: 50px;
     min-height: 50px;
     flex-grow: 1;
