@@ -1,4 +1,4 @@
-var noOfSquare = 8;
+var noOfSquare = 10;
 var contentDiv = document.getElementById("content");
 var board=document.createElement("div");
 board.className="board";
